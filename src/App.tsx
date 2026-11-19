@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { Bell, Bookmark, Camera, ChartNoAxesCombined, ChevronDown, Globe2, Heart, Laptop, Menu, Search, ShieldCheck, ShoppingBag, Smartphone, Sparkles, Tag, TrendingDown, X } from 'lucide-react';
+import { Bell, Bookmark, Camera, ChartNoAxesCombined, ChevronDown, Globe2, Heart, Laptop, Menu, Search, ShieldCheck, ShoppingBag, Smartphone, Sparkles, TrendingDown, X } from 'lucide-react';
 
 type Product = { id: number; name: string; category: string; price: number; currency: string; seller: string; country: string; change: string; icon: 'phone' | 'laptop' | 'bag' };
 const products: Product[] = [
