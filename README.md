@@ -70,3 +70,15 @@ public/
 ## License
 
 License to be selected before public distribution.
+
+
+## Database foundation
+
+The first relational data model is documented in [docs/price-radar-schema.sql](docs/price-radar-schema.sql). It covers product categories, products, sellers, current offers, verified price observations, community price submissions and private watchlists.
+
+Important safeguards:
+- Public offer listings expose only verified and sufficiently recent prices.
+- Community submissions remain pending until reviewed.
+- User submissions and watchlists are protected with Row Level Security (RLS).
+- The SQL file is a reviewed starting schema only. It has **not** been applied to a Supabase project.
+- Do not reuse another application's Supabase project. Create or select a dedicated PRICE RADAR project before applying it.
