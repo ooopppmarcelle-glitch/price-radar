@@ -1,3 +1,13 @@
+<!-- PHARELL STUDIOS brand header -->
+<p align="center">
+  <img src="public/pharell-studios-logo.jpg" alt="PHARELL STUDIOS — App Development Studio" width="100%" />
+</p>
+
+<p align="center">
+  <strong>Created by PHARELL STUDIOS</strong><br />
+  <sub>Powered by ChatGPT</sub>
+</p>
+
 # PRICE RADAR
 
 **Global Smart Price Intelligence** — Le vrai prix. Au bon endroit. Au bon moment.
