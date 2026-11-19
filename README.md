@@ -82,3 +82,8 @@ Important safeguards:
 - User submissions and watchlists are protected with Row Level Security (RLS).
 - The SQL file is a reviewed starting schema only. It has **not** been applied to a Supabase project.
 - Do not reuse another application's Supabase project. Create or select a dedicated PRICE RADAR project before applying it.
+
+
+## Data quality policy
+
+See [docs/price-data-quality.md](docs/price-data-quality.md) for source classifications, freshness windows, product matching, currency handling and verification requirements. This is a specification, not evidence that live data sources are connected.
