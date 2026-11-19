@@ -1,0 +1,10 @@
+{
+  "name": "PRICE RADAR",
+  "short_name": "Price Radar",
+  "description": "Global smart price intelligence",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#08121e",
+  "theme_color": "#08121e",
+  "icons": []
+}
