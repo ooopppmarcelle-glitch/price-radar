@@ -1,2 +1,72 @@
-# price-radar
-Global AI-powered product price comparison platform 
+# PRICE RADAR
+
+**Global Smart Price Intelligence** — Le vrai prix. Au bon endroit. Au bon moment.
+
+PRICE RADAR is an international, free-first product price discovery and comparison PWA. It is designed to help people identify products, compare available offers, track price history and make better-informed purchases.
+
+## Current status
+
+This repository contains the initial React + TypeScript + Vite PWA foundation and a responsive visual prototype. The displayed product cards and prices are **demo data**, not live merchant offers. No real price provider, scanner backend, authentication or alert delivery is connected yet.
+
+## Stack
+
+- React + TypeScript
+- Vite
+- vite-plugin-pwa
+- Lucide icons
+- Planned backend: Supabase (to be configured after schema and free-tier limits are reviewed)
+
+## Requirements
+
+- Node.js 20.19+ or 22.12+
+- npm
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Validate and build
+
+```bash
+npm run typecheck
+npm run build
+```
+
+## Project structure
+
+```text
+src/
+  App.tsx          Main responsive prototype
+  main.tsx         Application entry point
+  styles.css       Design system and responsive styles
+public/
+  manifest.webmanifest
+```
+
+## Product principles
+
+1. Every price must carry a source and observation date when real data is integrated.
+2. Demo, estimated, user-submitted and verified prices must be visibly distinguished.
+3. Never invent live offers or imply universal global coverage without evidence.
+4. Keep the core consumer experience free at launch.
+5. Protect user data and keep secrets out of the browser bundle and Git history.
+
+## Roadmap
+
+- [x] Initial responsive application shell and design direction
+- [x] Search/filter interaction over clearly labelled demo catalogue
+- [x] PWA manifest and Vite PWA foundation
+- [ ] Product and offer data model
+- [ ] Supabase schema, access policies and authentication
+- [ ] Real data-source integrations
+- [ ] Product matching and barcode/image scanning
+- [ ] Price history and alerts
+- [ ] Community price submissions and moderation
+- [ ] Automated tests, accessibility and deployment
+
+## License
+
+License to be selected before public distribution.
