@@ -18,5 +18,8 @@
     "lucide-react": "^0.468.0",
     "vite-plugin-pwa": "^0.21.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest"
+  }
 }
